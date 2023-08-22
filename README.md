@@ -1,7 +1,6 @@
 # Trend application
 
 This application contains main and test folders.  
-The Main contains the application code.  
-The test contains test cases.  
+The Main folder contains the application code.  
 It also contains pom.xml which has all dependencies and artifact name and version
 
