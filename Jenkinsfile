@@ -11,14 +11,14 @@ environment {
     stages {
         stage('build') {
             steps {
-                echo "... Build started..."
+                echo ".... Build started...."
                 sh 'mvn clean deploy -Dmaven.test.skip=true'
                 echo ".... Build completed...."
             }
         }
         stage('test'){
             steps {
-                echo "... Unit test started..."
+                echo ".... Unit test started...."
                 sh 'mvn surefire-report:report'
                 echo ".... Unit test completed...."
             }
